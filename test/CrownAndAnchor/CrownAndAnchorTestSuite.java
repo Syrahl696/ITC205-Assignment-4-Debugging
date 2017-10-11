@@ -23,7 +23,8 @@ import org.junit.runners.Suite;
  */
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-Bug1Replication.class})
+Bug1Replication.class,
+Bug2Replication.class})
 public class CrownAndAnchorTestSuite {
 
     @BeforeClass
@@ -43,7 +44,8 @@ public class CrownAndAnchorTestSuite {
     }
     
     public static void main(String[] args) {
-      Result result = JUnitCore.runClasses(Bug1Replication.class);
+      Result result = JUnitCore.runClasses(Bug1Replication.class,
+              Bug2Replication.class);
       
       for (Failure failure : result.getFailures()) {
          System.out.println(failure.toString());

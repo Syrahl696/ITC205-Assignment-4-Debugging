@@ -27,7 +27,7 @@ public class Bug1Replication {
      */
     @Test
     public void testPlayRound() {
-        System.out.println("playRound");
+        System.out.println("Bug 1");
         int balance = 100;
         int expBalance = 100;
         int bet = 5;
