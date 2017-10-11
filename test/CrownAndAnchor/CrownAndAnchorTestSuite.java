@@ -1,4 +1,4 @@
-package unit_test;
+package CrownAndAnchor;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -6,6 +6,7 @@ package unit_test;
  * and open the template in the editor.
  */
 
+import CrownAndAnchor.Bug1Replication;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -22,7 +23,7 @@ import org.junit.runners.Suite;
  */
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-GameTest.class})
+Bug1Replication.class})
 public class CrownAndAnchorTestSuite {
 
     @BeforeClass
@@ -42,7 +43,7 @@ public class CrownAndAnchorTestSuite {
     }
     
     public static void main(String[] args) {
-      Result result = JUnitCore.runClasses(GameTest.class);
+      Result result = JUnitCore.runClasses(Bug1Replication.class);
       
       for (Failure failure : result.getFailures()) {
          System.out.println(failure.toString());
