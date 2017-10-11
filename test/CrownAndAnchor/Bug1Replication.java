@@ -8,7 +8,6 @@ package CrownAndAnchor;
 
 
 import java.util.ArrayList;
-import java.util.List;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
@@ -26,7 +25,7 @@ public class Bug1Replication {
      * Test of playRound method, of class Game.
      */
     @Test
-    public void testPlayRound() {
+    public void testBug1() {
         System.out.println("Bug 1");
         int balance = 100;
         int expBalance = 100;

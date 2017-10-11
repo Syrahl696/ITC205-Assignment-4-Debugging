@@ -23,7 +23,7 @@ public class Bug2Replication {
      * Test of playRound method, of class Game.
      */
     @Test
-    public void testPlayRound() {
+    public void testBug2() {
         System.out.println("Bug 2");
         int balance = 100;
         int expBalance = 0;
