@@ -1,3 +1,5 @@
+package CrownAndAnchor;
+
 
 public class Player {
 	private String name;
