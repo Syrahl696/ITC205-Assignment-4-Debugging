@@ -6,7 +6,6 @@ package CrownAndAnchor;
  * and open the template in the editor.
  */
 
-import CrownAndAnchor.Bug1Replication;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -24,7 +23,8 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
 Bug1Replication.class,
-Bug2Replication.class})
+Bug2Replication.class,
+Bug3Replication.class})
 public class CrownAndAnchorTestSuite {
 
     @BeforeClass
@@ -45,7 +45,8 @@ public class CrownAndAnchorTestSuite {
     
     public static void main(String[] args) {
       Result result = JUnitCore.runClasses(Bug1Replication.class,
-              Bug2Replication.class);
+              Bug2Replication.class,
+              Bug3Replication.class);
       
       for (Failure failure : result.getFailures()) {
          System.out.println(failure.toString());
