@@ -82,7 +82,7 @@ public class Bug3Replication {
             totalWins += winCount;
             totalLosses += loseCount;
 
-            assertEquals(0.4213, (float) winCount / (winCount + loseCount), 0.015);
+            assertEquals(0.4213, (float) winCount / (winCount + loseCount), 0.005);
         } //while true
 
         
