@@ -19,8 +19,10 @@ public enum DiceValue {
 		VALUE_REPR_MAP.put(DiceValue.SPADE, "Spade");
 	}
 	
-	public String toString(DiceValue value) {
-		return VALUE_REPR_MAP.get(value);
+
+        @Override
+	public String toString() {
+		return VALUE_REPR_MAP.get(this);
 	}
 	
 	public static DiceValue getRandom() {
