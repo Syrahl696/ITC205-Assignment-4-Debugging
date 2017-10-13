@@ -1,0 +1,70 @@
+﻿Assignment 4 Directory
+
+Github Repository
+https://github.com/Syrahl696/ITC205-Assignment-4-Debugging
+
+Commits have been made after each task was completed for each bug. Each reported bug was fixed on a separate branch and then merged into the master branch.
+
+Bug 3 had 2 separate causes, which I labelled 3a and 3b. These were resolved separately in the Debugging log and committed together. “After” screenshots were recorded separately for each bug, and a final screenshot was made after both bugs were resolved.
+
+Bug 4 was not in the initial bug report and consisted of 2 minor text issues, which I labelled 4a and 4b. These minor text fixes were resolved separately in the Debugging log and committed together. “After” screenshots were recorded separately for each bug, and a final screenshot was made after both bugs were resolved.
+
+Directory
+Bug 1:
+
+Test Case Documentation: Documentation/Task 1 – Test Cases/Test Case - Bug 1 v1.0.docx
+
+Automated Test Output: Documentation/Task 2 – Automated Test Output/Bug 1 Simplification Report – Test Output and Additional Bugs Found.docx
+
+Debugging Log: Documentation/Task 3 – Debugging Logs/Bug 1 – Debugging Log.docx
+
+Before Screenshot: Documentation/Task 3 – Screenshots/Bug 1 – Before.png
+
+After Screenshot: Documentation/Task 3 – Screenshots/Bug 1 – After.png
+
+Resolution Report (including automated test output and user test case result after resolution):
+Documentation/Task 4 – Resolution/Bug 1 – Resolution Report.docx
+
+
+Bug 2:
+Test Case Documentation: Documentation/Task 1 – Test Cases/Test Case - Bug 2 v1.0.docx
+
+Automated Test Output: Documentation/Task 2 – Automated Test Output/Bug 2 Automated Test Output.docx
+
+Debugging Log: Documentation/Task 3 – Debugging Logs/Bug 2 – Debugging Log.docx
+
+Before Screenshot: Documentation/Task 3 – Screenshots/Bug 2 – Before.png
+
+After Screenshot: Documentation/Task 3 – Screenshots/Bug 2 – After.png
+
+Resolution Report (including automated test output and user test case result after resolution):
+Documentation/Task 4 – Resolution/Bug 2 – Resolution Report.docx
+ 
+
+Bug 3:
+Test Case Documentation: Documentation/Task 1 – Test Cases/Test Case - Bug 3 v1.0.docx
+
+Automated Test Output: Documentation/Task 2 – Automated Test Output/Bug 3 Automated Test Output.docx
+
+Debugging Log: Documentation/Task 3 – Debugging Logs/Bug 3 – Debugging Log.docx
+
+Before Screenshot: Documentation/Task 3 – Screenshots/Bug 3 – Before.png
+
+After Screenshots: Documentation/Task 3 – Screenshots/Bug 3a – After.png, Bug 3b – After.png. Bug 3 – After.png.
+
+Resolution Report (including automated test output and user test case result after resolution):
+Documentation/Task 4 – Resolution/Bug 3 – Resolution Report.docx
+
+Bug 4:
+Test Case Documentation: Documentation/Task 1 – Test Cases/Test Case - Bug 4 v1.0.docx
+
+Automated Test Output: No automated test was created for Bug 4. Due to the nature of the bug, assertations could not be made without heavy workarounds. Since the bug is related to the user experience, the user test case will suffice.
+
+Debugging Log: Documentation/Task 3 – Debugging Logs/Bug 4 – Debugging Log.docx
+
+Before Screenshot: Documentation/Task 3 – Screenshots/Bug 4 – Before.png
+
+After Screenshots: Documentation/Task 3 – Screenshots/ Bug 4a – After.png, Bug 4b – After.png. Bug 4 – After.png.
+
+Resolution Report (including automated test output and user test case result after resolution):
+Documentation/Task 4 – Resolution/Bug 4 – Resolution Report.docx
